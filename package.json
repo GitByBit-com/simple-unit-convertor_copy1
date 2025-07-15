@@ -1,0 +1,35 @@
+{
+  "name": "simple-unit-convertor",
+  "version": "1.0.0",
+  "description": "A simple unit conversion library for mass and length",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest",
+    "test:watch": "vitest --watch",
+    "test:ui": "vitest --ui",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "convert",
+    "units",
+    "conversion",
+    "mass",
+    "length",
+    "typescript"
+  ],
+  "author": "Alexander Shvets",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^1.0.0"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
